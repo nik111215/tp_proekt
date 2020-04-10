@@ -18,4 +18,4 @@ public:
 	int receiv_defence() const;
 	void up_xp(int money);
 };
-#endif SOLDIER_HPP
+#endif 

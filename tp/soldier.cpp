@@ -47,7 +47,7 @@ int Soldier::receiv_defence() const{
 	return defence;
 }
 
-void Soldier::up_xp() {
+void Soldier::up_xp(int money) {
 	xp = xp + money / 10;
 }
 

@@ -1,7 +1,7 @@
 #include <iostream>
-#include "solier.hpp"
+#include "soldier.hpp"
 int main () {
-	Soldier A("elf");
+	Soldier A(1);
 	std::cout << A.receiv_xp();
 	return 0;
 }
